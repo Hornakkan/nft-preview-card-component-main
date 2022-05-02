@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&display=swap');
+
 $softBlue: hsl(215, 51%, 70%);
 $cyan: hsl(178, 100%, 50%);
 $mainBg: hsl(217, 54%, 11%);
@@ -5,4 +7,12 @@ $cardBg: hsl(216, 50%, 16%);
 $lineBlue: hsl(215, 32%, 27%);
 $white: hsl(0, 0%, 100%);
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Overpass:wght@100;400;700&display=swap');
+$font: 'Overpass', sans-serif;
+$font-size: 16px;
+
+@mixin font($color: $txt-color, $size: $font-size, $font-weight: 400) {
+    color: $color;
+    font-size: $size;
+    font-weight: $font-weight;
+    font-family: $font;
+}

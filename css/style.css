@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&display=swap");
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(217deg, 54%, 11%);
+  color: hsl(215deg, 51%, 70%);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Overpass", sans-serif;
+}
+
+.wrapper {
+  max-width: 1920px;
+}
+
+main {
+  background: hsl(216deg, 50%, 16%);
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  box-shadow: 0px 30px 0px 20px #0c1627;
+  border-radius: 20px;
+}
+
+.card-top {
+  max-width: 350px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-top img {
+  margin-top: 8%;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+.card-footer .avatar {
+  width: 30px;
+  height: 30px;
+  border: 1.8px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
+
+footer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+}
+
+.reach-me {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.devicon-github-original {
+  color: white;
+  font-size: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */

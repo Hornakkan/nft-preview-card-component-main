@@ -1,39 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <link rel="stylesheet" href="./css/style.css">
-  
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
   
-  Creation of Jules Wyvern
+  <div class="wrapper" role="container">
+    <main>
+        <div class="card-top">
+          <img src="./images/image-equilibrium.jpg" alt="image Equilibrium">
+        </div>
+        <div class="card-detail">
+          <h2>Equilibrium #3429</h2>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+          <div class="ethereum">
+            <img src="./images/icon-ethereum.svg" alt="icone Ethereum"><p>0.041 ETH</p>
+          </div>
+          <div class="clock">
+            <img src="./images/icon-clock.svg" alt="icone clock"><p>3 days left</p>
+          </div>
+        </div>
+      <div class="card-line" role="ligne de separation"></div>
+      <div class="card-footer" role="footer de la card">
+        <img src="./images/image-avatar.png" alt="avatar designer" class="avatar"><p>Creation of</p> Jules Wyvern
+      </div>
+    </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by Hornakkan.
-    <div class="reach-me">
-      <a href="https://www.linkedin.com/in/sebastien-lacour"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width=34 height=34 /></a>
-      <a href="https://github.com/Hornakkan"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width=34 height=34 /></a>
-    </div>
-          
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        <p>Coded by Hornakkan :</p>
+        <div class="reach-me">
+          <a href="https://www.linkedin.com/in/sebastien-lacour"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width=34 height=34 /></a>
+          <!-- <a href="https://github.com/Hornakkan"><img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/></a> -->
+          <a href="https://github.com/Hornakkan"><i class="devicon-github-original"></i></a>
+        </div>          
+      </div>
+    </footer>
   </div>
+
 </body>
 </html>
