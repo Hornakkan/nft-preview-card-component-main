@@ -169,6 +169,10 @@ footer {
 footer a {
   text-decoration: none;
 }
+footer p {
+  margin-top: 10px;
+  margin-left: 15%;
+}
 
 .reach-me {
   margin-top: 10px;
