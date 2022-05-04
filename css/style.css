@@ -51,15 +51,14 @@ main {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-.card-top-img .eye:hover {
-  opacity: 0;
-}
 .card-top-img .equilibrium {
   position: relative;
   max-width: 100%;
   border-radius: 10px;
   overflow: hidden;
   z-index: 2;
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
 }
 .card-top-img .equilibrium:hover {
   opacity: 0.5;

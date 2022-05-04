@@ -46,9 +46,6 @@ main {
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 1;
-            &:hover {
-                opacity: 0;
-            }
         }
         & .equilibrium {
             position: relative;
@@ -56,6 +53,8 @@ main {
             border-radius: 10px;
             overflow: hidden;
             z-index: 2;
+            opacity: 1;
+            transition: opacity 300ms ease-in-out;
         }
         & .equilibrium:hover {
             opacity: 0.5;
